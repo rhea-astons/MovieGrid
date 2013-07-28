@@ -101,9 +101,8 @@ def renderView(movies, output='view.html'):
 	out.write('</body></html>')
 	out.close()
 
+movieDir = "/home/raph/movies/"
 
-#movieDir = "/home/raph/gitProjects/MovieGrid/movies/"
-movieDir = "/home/raph/syn/video/Films"
 if os.path.isfile('view.html'):
 	os.remove('view.html')
 
